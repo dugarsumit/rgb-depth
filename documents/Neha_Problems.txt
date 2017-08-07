@@ -1,0 +1,16 @@
+####__models__####
+
+1. Downloading vgg_16:
+    Since the pretrained weight file is a big one, you may have trouble downloading it in one go.
+    Try on your terminal:
+        wget https://download.pytorch.org/models/vgg16-397923af.pth     #You can find this url in vgg.py file
+        mv vgg16-397923af.pth ~/.torch/models/
+2. torchsample:
+    We can directly augment tensor-data with the torchsample library - https://github.com/ncullen93/torchsample
+    1. Download using git clone https://github.com/ncullen93/torchsample.git
+    2. activate your virtualenv
+    3. cd torchssample
+    4. python setup.py build
+    5. python setup.py install
+    6. extract the .EGG file in <virtual env>/lib/python3.5/site-packages
+    7. copy over the torchsample folder to <virtual env>/lib/python3.5/site-packages

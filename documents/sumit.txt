@@ -1,0 +1,27 @@
+scipy is not able to read .mat files so I had to use h5py
+
+depth data = float32
+rgb = uint8
+
+
+segmentation image data have followings keys: 
+#refs#
+#subsystem#
+accelData
+depths
+images
+instances
+labels
+names
+namesToIds
+rawDepthFilenames
+rawDepths
+rawRgbFilenames
+sceneTypes
+scenes
+
+We need to use python 3.5 because pickle is not working properly with python 2.7
+
+
+test data : dataset_rgb2depth_train_part13_of_14
+validation data : dataset_rgb2depth_train_part14_of_14

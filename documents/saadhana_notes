@@ -1,0 +1,5 @@
+
+
+1. Dropout layer should be added in layer 1.6
+2. Model class needs Image dimensions to be initialized
+3. Scale 3: layers 3.2, 3.3 ambiguous

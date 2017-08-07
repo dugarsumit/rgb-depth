@@ -1,0 +1,16 @@
+--08 July by San Yu
+file: model.py
+1. Add scale2 and scale3 models.
+2. Assume #chan also implies the number of conv layers in a block.
+3. upsample is still pendding, by nn.ConvTanspose2d?
+4. Add forward
+5. The initial dimensions of scales have been calculated. But mismatching takes place in scale3 
+
+--11 July by San Yu
+file: add model_sanyu.py
+1. finish the model part and forward pass
+2. remove model_alt.py
+3. scale1: tune strides the first two conv layers to fit dimensions
+4. use UpsamplingBilinear2d for upsampling, dimensions explicitly coded
+5. scale3: sizes are different from the paper and the 2.9 is added after 3.3(unclear to me)
+6. scale2 will be trained at first and then scale3. This part not adapted yet.

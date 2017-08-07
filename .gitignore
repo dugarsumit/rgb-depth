@@ -1,0 +1,6 @@
+**/data
+**/checkpoint
+.idea
+**/*.pyc
+**/virtualenv
+**/ext-lib
