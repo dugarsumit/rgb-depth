@@ -1,7 +1,7 @@
 # Implementation of a Framework to obtain depth Images from RGB Images using Deep Learning
 
 This work implements the architecture laid out in the paper by Li, Jun, Reinhard Klein, and Angela Yao. "Learning fine-scaled depth maps from single RGB images." arXiv preprint (2016). 
-This implementation has equal contributions<sup>1</sup> from [Neha Das](https://github.com/neha191091), [Sumit Dugar](https://github.com/dugarsumit), Saadhana Venkatraman and San Yu Huang.
+This implementation has equal contributions<sup>1</sup> from [Neha Das](https://github.com/neha191091), [Sumit Dugar](https://github.com/dugarsumit), [Saadhana Venkatraman](https://gitlab.lrz.de/ga83pof) and [San Yu Huang](https://gitlab.lrz.de/ga59hoc).
 
 The experiments from this work are summarized in the following poster (PDF version [here](https://github.com/neha191091/rgb-depth/blob/master/documents/Poster_v4.pdf)
 ![Poster](https://github.com/neha191091/rgb-depth/blob/master/documents/Poster_v4.jpg)
