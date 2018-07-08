@@ -10,7 +10,7 @@ The experiments from this work are summarized in the following poster (PDF versi
 You will require Pytorch and Jupyter Notebook for running this project.
 
 ## Datasets
-The training and evaluation of the architectures in this project were performed using RMRC Indoor Depth Chalenge Dataset. You can dowload it [here](http://cs.nyu.edu/ silberman/rmrc2014/indoor.php)
+The training and evaluation of the architectures in this project were performed using RMRC Indoor Depth Chalenge Dataset. You can dowload it [here](http://cs.nyu.edu/silberman/rmrc2014/indoor.php)
 
 ## Running the experiments
 The experiments in this project can be run by executing **launcher.py**.
